@@ -6,6 +6,7 @@
   "bin": {
     "create-express": "./bin/createExpress.js"
   },
+  "private": "true",
   "scripts": {
     "start": "npx tsc && nodemon dist/app.js",
     "build": "npx tsc",
