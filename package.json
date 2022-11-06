@@ -2,9 +2,9 @@
   "name": "create-express-app",
   "version": "1.0.0",
   "description": "Create Express app is a tamplate which is use to Create a express app templete api",
-  "main": "index.js",
+  "main": "app.js",
   "bin": {
-    "create-express-app": "bin/createExpress.js"
+    "create-express-app": "./bin/createExpress.js"
   },
   "scripts": {
     "start": "node  dist/app.js",
